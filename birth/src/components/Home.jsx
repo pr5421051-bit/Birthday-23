@@ -30,10 +30,10 @@ export default function Home() {
 
 
       <div className="home-gallery">
+        <img src="/child4.jpeg" />
         <img src="/child1.jpeg" />
         <img src="/child2.jpeg" />
         <img src="/child3.jpeg" />
-        <img src="/child4.jpeg" />
       </div>
 
       <button className="main-btn" onClick={() => navigate("/story")}>
@@ -42,4 +42,5 @@ export default function Home() {
     </div>
   );
 }
+
 
